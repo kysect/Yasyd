@@ -4,15 +4,10 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <LangVersion>preview</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Common\Kysect.Yasyd.BaseLib\Kysect.Yasyd.BaseLib.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="PackageTransport\" />
+    <ProjectReference Include="..\Kysect.Yasyd.Communication\Kysect.Yasyd.Communication.csproj" />
   </ItemGroup>
 
 </Project>

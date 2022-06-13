@@ -5,15 +5,19 @@ VisualStudioVersion = 17.3.32505.426
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Communication", "Communication", "{81870AB8-7BAA-4D84-A81C-0FD1A349C122}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kysect.Yasyd.Communication", "Communication\Kysect.Yasyd.Communication\Kysect.Yasyd.Communication.csproj", "{2A35A618-F811-450E-A50E-0122DA76D5A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kysect.Yasyd.Communication", "Communication\Kysect.Yasyd.Communication\Kysect.Yasyd.Communication.csproj", "{2A35A618-F811-450E-A50E-0122DA76D5A6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{91CF0009-A2B8-4A7C-8EB6-B90CFCB350AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kysect.Yasyd.Polygon", "Tests\Kysect.Yasyd.Polygon\Kysect.Yasyd.Polygon.csproj", "{92371D84-4245-41D5-BFFD-5495897B80A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kysect.Yasyd.Polygon", "Tests\Kysect.Yasyd.Polygon\Kysect.Yasyd.Polygon.csproj", "{92371D84-4245-41D5-BFFD-5495897B80A7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{87DC1C8B-750F-45B9-B079-A6429392F9F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kysect.Yasyd.BaseLib", "Common\Kysect.Yasyd.BaseLib\Kysect.Yasyd.BaseLib.csproj", "{B55AEFD2-56B5-4491-98EC-D2398D5FFDE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kysect.Yasyd.BaseLib", "Common\Kysect.Yasyd.BaseLib\Kysect.Yasyd.BaseLib.csproj", "{B55AEFD2-56B5-4491-98EC-D2398D5FFDE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kysect.Yasyd.Communication.Client", "Communication\Kysect.Yasyd.Communication.Client\Kysect.Yasyd.Communication.Client.csproj", "{4D4685B5-79C4-4D8C-8532-17351FF2DB10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kysect.Yasyd.Communication.Server", "Communication\Kysect.Yasyd.Communication.Server\Kysect.Yasyd.Communication.Server.csproj", "{61CCF2AF-565F-41A8-A30C-905F431B66A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{B55AEFD2-56B5-4491-98EC-D2398D5FFDE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B55AEFD2-56B5-4491-98EC-D2398D5FFDE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B55AEFD2-56B5-4491-98EC-D2398D5FFDE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D4685B5-79C4-4D8C-8532-17351FF2DB10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D4685B5-79C4-4D8C-8532-17351FF2DB10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D4685B5-79C4-4D8C-8532-17351FF2DB10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D4685B5-79C4-4D8C-8532-17351FF2DB10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61CCF2AF-565F-41A8-A30C-905F431B66A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61CCF2AF-565F-41A8-A30C-905F431B66A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61CCF2AF-565F-41A8-A30C-905F431B66A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61CCF2AF-565F-41A8-A30C-905F431B66A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +53,8 @@ Global
 		{2A35A618-F811-450E-A50E-0122DA76D5A6} = {81870AB8-7BAA-4D84-A81C-0FD1A349C122}
 		{92371D84-4245-41D5-BFFD-5495897B80A7} = {91CF0009-A2B8-4A7C-8EB6-B90CFCB350AD}
 		{B55AEFD2-56B5-4491-98EC-D2398D5FFDE6} = {87DC1C8B-750F-45B9-B079-A6429392F9F1}
+		{4D4685B5-79C4-4D8C-8532-17351FF2DB10} = {81870AB8-7BAA-4D84-A81C-0FD1A349C122}
+		{61CCF2AF-565F-41A8-A30C-905F431B66A3} = {81870AB8-7BAA-4D84-A81C-0FD1A349C122}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E46D1FA9-592F-44E2-82D7-F5029B99F22B}
